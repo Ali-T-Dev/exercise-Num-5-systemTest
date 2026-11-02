@@ -1,0 +1,4 @@
+policy,hyperperiod,end_time,jobs_released,jobs_completed,avg_waiting_time,avg_turnaround_time,avg_response_time,avg_resource_waiting_time,avg_block_time,deadline_misses,idle_time,preemptions,lock_holder_preemptions,MON_enter_calls,MON_cond_waits,MON_signals,MON_spurious_wakeups,MON_max_queue,SEM_P_calls,SEM_P_blocked,SEM_max_queue,case
+PRIORITY,30,30,10,10,1.9,4.6,1.9,0.0,0.0,0,3,0,0,10,0,0,0,0,10,0,0,Test-Combined
+RM,30,30,10,10,2.4,5.1,0.8,0.0,0.0,1,3,5,0,10,0,0,0,0,10,0,0,Test-Combined
+EDF,30,30,10,10,1.8,4.5,1.2,0.0,0.0,0,3,3,0,10,0,0,0,0,10,0,0,Test-Combined
